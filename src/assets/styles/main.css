@@ -3,6 +3,9 @@
 @import url(/src/assets/styles/mixins/mixin.css);
 
 body{
+	font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
 	background-color: aqua;
 }
 
@@ -23,4 +26,18 @@ body{
 	transform: opacity(0.5);
 	transition: 0.6s;
 	background-color: #a78a9a;
+}
+
+a{
+	 
+	color: #000;
+}
+
+.third_part_header a{
+	text-decoration: none;
+	color: #000;
+}
+.third_part_header li{
+	text-decoration: none;
+	color: #000;
 }
